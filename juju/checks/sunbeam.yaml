@@ -1,0 +1,15 @@
+# See README.md and 'ua-bundle-check.py --schema' for usage and schema details
+checks:
+  k8s:
+    charm: k8s
+  microceph:
+    charm: microceph
+  openstack-hypervisor:
+    charm: openstack-hypervisor
+  sunbeam-machine:
+    charm: sunbeam-machine
+  cinder-volume-ceph:
+    charm: cinder-volume-ceph
+  cinder-volume:
+    charm: cinder-volume
+
